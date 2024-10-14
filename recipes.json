@@ -1,0 +1,501 @@
+[
+  {
+    "title": "Pâtes à la carbonara",
+    "ingredients": [
+      { "name": "spaghetti", "quantity": 100, "unit": "g" },
+      { "name": "lardons", "quantity": 50, "unit": "g" },
+      { "name": "œufs", "quantity": 0.75, "unit": "unit" },
+      { "name": "parmesan", "quantity": 25, "unit": "g" }
+    ],
+    "steps": [
+      "Cuire les spaghetti dans une grande casserole d'eau salée.",
+      "Dans une poêle, faire revenir les lardons jusqu'à ce qu'ils soient dorés.",
+      "Dans un bol, battre les œufs avec le parmesan, le sel et le poivre.",
+      "Une fois les pâtes cuites, les égoutter et les mélanger avec les lardons.",
+      "Ajouter le mélange œufs-parmesan et bien mélanger. Servir chaud."
+    ],
+    "time": "20 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Salade César",
+    "ingredients": [
+      { "name": "laitue romaine", "quantity": 0.5, "unit": "unit" },
+      { "name": "croutons", "quantity": 50, "unit": "g" },
+      { "name": "parmesan", "quantity": 25, "unit": "g" },
+      { "name": "sauce César", "quantity": 15, "unit": "ml" }
+    ],
+    "steps": [
+      "Laver et couper la laitue romaine.",
+      "Dans un saladier, mélanger la laitue, les croutons et la sauce.",
+      "Râper le parmesan sur le dessus et ajouter du poivre au goût."
+    ],
+    "time": "10 minutes",
+    "servings": 2
+  },
+  {
+    "title": "Tarte aux pommes",
+    "ingredients": [
+      { "name": "pâte brisée", "quantity": 125, "unit": "g" },
+      { "name": "pommes", "quantity": 1, "unit": "unit" },
+      { "name": "sucre", "quantity": 16.67, "unit": "g" },
+      { "name": "beurre", "quantity": 8.33, "unit": "g" },
+      { "name": "œuf", "quantity": 0.17, "unit": "unit" }
+    ],
+    "steps": [
+      "Préchauffer le four à 180°C.",
+      "Éplucher et couper les pommes en tranches.",
+      "Étaler la pâte dans un moule à tarte et disposer les pommes dessus.",
+      "Mélanger l'œuf avec le sucre et verser sur les pommes.",
+      "Ajouter des petits morceaux de beurre sur le dessus et cuire au four pendant 30 minutes."
+    ],
+    "time": "1 heure",
+    "servings": 6
+  },
+  {
+    "title": "Soupe à l'oignon",
+    "ingredients": [
+      { "name": "oignons", "quantity": 1, "unit": "unit" },
+      { "name": "beurre", "quantity": 12.5, "unit": "g" },
+      { "name": "bouillon de bœuf", "quantity": 250, "unit": "ml" },
+      { "name": "fromage râpé", "quantity": 25, "unit": "g" },
+      { "name": "pain", "quantity": 25, "unit": "g" }
+    ],
+    "steps": [
+      "Faire fondre le beurre dans une grande casserole.",
+      "Ajouter les oignons émincés et faire revenir jusqu'à ce qu'ils soient dorés.",
+      "Verser le bouillon de bœuf et laisser mijoter pendant 30 minutes.",
+      "Servir avec des tranches de pain et du fromage râpé."
+    ],
+    "time": "40 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Ratatouille",
+    "ingredients": [
+      { "name": "aubergine", "quantity": 0.25, "unit": "unit" },
+      { "name": "courgette", "quantity": 0.5, "unit": "unit" },
+      { "name": "poivron", "quantity": 0.25, "unit": "unit" },
+      { "name": "tomates", "quantity": 1, "unit": "unit" },
+      { "name": "oignon", "quantity": 0.25, "unit": "unit" },
+      { "name": "herbes de Provence", "quantity": 1, "unit": "cuil. à café" }
+    ],
+    "steps": [
+      "Couper tous les légumes en dés.",
+      "Dans une poêle, faire revenir l'oignon jusqu'à ce qu'il soit translucide.",
+      "Ajouter les autres légumes et cuire pendant 30 minutes.",
+      "Assaisonner avec des herbes de Provence et servir."
+    ],
+    "time": "40 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Chili con carne",
+    "ingredients": [
+      { "name": "viande hachée", "quantity": 125, "unit": "g" },
+      { "name": "haricots rouges", "quantity": 100, "unit": "g" },
+      { "name": "oignon", "quantity": 0.25, "unit": "unit" },
+      { "name": "poivron", "quantity": 0.25, "unit": "unit" },
+      { "name": "tomate concassée", "quantity": 50, "unit": "g" },
+      { "name": "épices chili", "quantity": 0.5, "unit": "cuil. à café" }
+    ],
+    "steps": [
+      "Faire revenir l'oignon et le poivron dans une poêle.",
+      "Ajouter la viande hachée et cuire jusqu'à ce qu'elle soit dorée.",
+      "Incorporer les haricots rouges et les tomates concassées.",
+      "Assaisonner avec les épices chili et laisser mijoter pendant 30 minutes."
+    ],
+    "time": "1 heure",
+    "servings": 4
+  },
+  {
+    "title": "Crêpes",
+    "ingredients": [
+      { "name": "farine", "quantity": 62.5, "unit": "g" },
+      { "name": "œufs", "quantity": 0.5, "unit": "unit" },
+      { "name": "lait", "quantity": 125, "unit": "ml" },
+      { "name": "beurre", "quantity": 12.5, "unit": "g" },
+      { "name": "sucre", "quantity": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Dans un saladier, mélanger la farine et les œufs.",
+      "Ajouter progressivement le lait et le beurre fondu.",
+      "Laisser reposer la pâte pendant 30 minutes.",
+      "Cuire les crêpes dans une poêle chaude jusqu'à ce qu'elles soient dorées des deux côtés."
+    ],
+    "time": "1 heure",
+    "servings": 4
+  },
+  {
+    "title": "Boeuf bourguignon",
+    "ingredients": [
+      { "name": "boeuf", "quantity": 250, "unit": "g" },
+      { "name": "champignons", "quantity": 62.5, "unit": "g" },
+      { "name": "carottes", "quantity": 0.5, "unit": "unit" },
+      { "name": "vin rouge", "quantity": 125, "unit": "ml" },
+      { "name": "oignon", "quantity": 0.25, "unit": "unit" },
+      { "name": "herbes de Provence", "quantity": 0.5, "unit": "cuil. à café" }
+    ],
+    "steps": [
+      "Faire revenir la viande dans une grande cocotte.",
+      "Ajouter l'oignon émincé et les carottes coupées.",
+      "Verser le vin rouge et laisser mijoter pendant 2 heures.",
+      "Ajouter les champignons et cuire encore 30 minutes."
+    ],
+    "time": "3 heures",
+    "servings": 6
+  },
+  {
+    "title": "Pizza Margherita",
+    "ingredients": [
+      { "name": "pâte à pizza", "quantity": 125, "unit": "g" },
+      { "name": "tomates concassées", "quantity": 50, "unit": "g" },
+      { "name": "mozzarella", "quantity": 75, "unit": "g" },
+      { "name": "basilic", "quantity": 1, "unit": "feuille" },
+      { "name": "huile d'olive", "quantity": 5, "unit": "ml" }
+    ],
+    "steps": [
+      "Préchauffer le four à 220°C.",
+      "Étaler la pâte à pizza sur une plaque.",
+      "Étaler les tomates concassées sur la pâte.",
+      "Ajouter la mozzarella et le basilic.",
+      "Arroser d'huile d'olive et cuire au four pendant 15-20 minutes."
+    ],
+    "time": "30 minutes",
+    "servings": 2
+  },
+  {
+    "title": "Gâteau au chocolat",
+    "ingredients": [
+      { "name": "chocolat noir", "quantity": 100, "unit": "g" },
+      { "name": "beurre", "quantity": 50, "unit": "g" },
+      { "name": "sucre", "quantity": 75, "unit": "g" },
+      { "name": "farine", "quantity": 25, "unit": "g" },
+      { "name": "œufs", "quantity": 2, "unit": "unit" }
+    ],
+    "steps": [
+      "Préchauffer le four à 180°C.",
+      "Faire fondre le chocolat et le beurre au bain-marie.",
+      "Dans un saladier, battre les œufs avec le sucre.",
+      "Incorporer le mélange chocolat-beurre puis la farine.",
+      "Verser dans un moule et cuire pendant 20 minutes."
+    ],
+    "time": "40 minutes",
+    "servings": 6
+  },
+  {
+    "title": "Lasagnes",
+    "ingredients": [
+      { "name": "lasagnes", "quantity": 200, "unit": "g" },
+      { "name": "viande hachée", "quantity": 250, "unit": "g" },
+      { "name": "tomates concassées", "quantity": 200, "unit": "g" },
+      { "name": "béchamel", "quantity": 200, "unit": "g" },
+      { "name": "fromage râpé", "quantity": 100, "unit": "g" }
+    ],
+    "steps": [
+      "Préchauffer le four à 180°C.",
+      "Faire revenir la viande hachée et ajouter les tomates concassées.",
+      "Dans un plat, alterner les couches de lasagnes, viande et béchamel.",
+      "Terminer par une couche de béchamel et de fromage râpé.",
+      "Cuire au four pendant 40 minutes."
+    ],
+    "time": "1 heure",
+    "servings": 4
+  },
+  {
+    "title": "Pêches au sirop",
+    "ingredients": [
+      { "name": "pêches", "quantity": 2, "unit": "unit" },
+      { "name": "sucre", "quantity": 50, "unit": "g" },
+      { "name": "eau", "quantity": 250, "unit": "ml" },
+      { "name": "jus de citron", "quantity": 10, "unit": "ml" }
+    ],
+    "steps": [
+      "Dans une casserole, porter l'eau et le sucre à ébullition.",
+      "Ajouter les pêches pelées et coupées en deux.",
+      "Laisser mijoter pendant 15 minutes.",
+      "Ajouter le jus de citron et laisser refroidir."
+    ],
+    "time": "30 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Riz au lait",
+    "ingredients": [
+      { "name": "riz", "quantity": 50, "unit": "g" },
+      { "name": "lait", "quantity": 500, "unit": "ml" },
+      { "name": "sucre", "quantity": 50, "unit": "g" },
+      { "name": "vanille", "quantity": 1, "unit": "gousse" }
+    ],
+    "steps": [
+      "Dans une casserole, porter le lait à ébullition avec la gousse de vanille.",
+      "Ajouter le riz et cuire à feu doux pendant 30 minutes.",
+      "Incorporer le sucre et laisser refroidir."
+    ],
+    "time": "1 heure",
+    "servings": 4
+  },
+  {
+    "title": "Quiche Lorraine",
+    "ingredients": [
+      { "name": "pâte brisée", "quantity": 125, "unit": "g" },
+      { "name": "lardons", "quantity": 100, "unit": "g" },
+      { "name": "œufs", "quantity": 3, "unit": "unit" },
+      { "name": "crème fraîche", "quantity": 200, "unit": "ml" },
+      { "name": "fromage râpé", "quantity": 50, "unit": "g" }
+    ],
+    "steps": [
+      "Préchauffer le four à 180°C.",
+      "Étaler la pâte dans un moule à tarte.",
+      "Faire revenir les lardons et les répartir sur la pâte.",
+      "Dans un saladier, mélanger les œufs, la crème et le fromage.",
+      "Verser le mélange sur les lardons et cuire au four pendant 30 minutes."
+    ],
+    "time": "1 heure",
+    "servings": 6
+  },
+  {
+    "title": "Brochettes de poulet",
+    "ingredients": [
+      { "name": "poulet", "quantity": 300, "unit": "g" },
+      { "name": "poivron", "quantity": 1, "unit": "unit" },
+      { "name": "oignon", "quantity": 0.5, "unit": "unit" },
+      { "name": "épices", "quantity": 5, "unit": "g" },
+      { "name": "huile d'olive", "quantity": 10, "unit": "ml" }
+    ],
+    "steps": [
+      "Couper le poulet et les légumes en morceaux.",
+      "Mélanger l'huile et les épices et mariner le poulet.",
+      "Enfiler le poulet et les légumes sur des brochettes.",
+      "Griller les brochettes pendant 15 minutes."
+    ],
+    "time": "30 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Tacos au poulet",
+    "ingredients": [
+      { "name": "tortillas", "quantity": 4, "unit": "unit" },
+      { "name": "poulet", "quantity": 200, "unit": "g" },
+      { "name": "tomate", "quantity": 1, "unit": "unit" },
+      { "name": "salade", "quantity": 50, "unit": "g" },
+      { "name": "sauce", "quantity": 30, "unit": "ml" }
+    ],
+    "steps": [
+      "Faire cuire le poulet et le couper en morceaux.",
+      "Chauffer les tortillas dans une poêle.",
+      "Remplir chaque tortilla de poulet, tomate et salade.",
+      "Ajouter de la sauce et servir."
+    ],
+    "time": "20 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Sushi",
+    "ingredients": [
+      { "name": "riz à sushi", "quantity": 150, "unit": "g" },
+      { "name": "nori", "quantity": 2, "unit": "feuille" },
+      { "name": "saumon", "quantity": 100, "unit": "g" },
+      { "name": "avocat", "quantity": 0.5, "unit": "unit" },
+      { "name": "vinaigre de riz", "quantity": 15, "unit": "ml" }
+    ],
+    "steps": [
+      "Cuire le riz à sushi et l'assaisonner avec le vinaigre.",
+      "Couper le saumon et l'avocat en fines tranches.",
+      "Étaler le riz sur les feuilles de nori et ajouter le saumon et l'avocat.",
+      "Rouler le tout et couper en morceaux."
+    ],
+    "time": "1 heure",
+    "servings": 2
+  },
+  {
+    "title": "Ragoût de légumes",
+    "ingredients": [
+      { "name": "carottes", "quantity": 2, "unit": "unit" },
+      { "name": "pommes de terre", "quantity": 2, "unit": "unit" },
+      { "name": "courgette", "quantity": 1, "unit": "unit" },
+      { "name": "bouillon de légumes", "quantity": 500, "unit": "ml" },
+      { "name": "herbes de Provence", "quantity": 1, "unit": "cuil. à café" }
+    ],
+    "steps": [
+      "Couper tous les légumes en morceaux.",
+      "Dans une casserole, faire revenir les légumes avec les herbes.",
+      "Ajouter le bouillon de légumes et laisser mijoter pendant 30 minutes."
+    ],
+    "time": "40 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Curry de lentilles",
+    "ingredients": [
+      { "name": "lentilles", "quantity": 100, "unit": "g" },
+      { "name": "coconut milk", "quantity": 200, "unit": "ml" },
+      { "name": "oignon", "quantity": 0.5, "unit": "unit" },
+      { "name": "curry en poudre", "quantity": 1, "unit": "cuil. à café" },
+      { "name": "épices", "quantity": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Faire revenir l'oignon dans une casserole.",
+      "Ajouter les lentilles et les épices.",
+      "Verser le lait de coco et laisser mijoter pendant 30 minutes."
+    ],
+    "time": "40 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Mousse au chocolat",
+    "ingredients": [
+      { "name": "chocolat noir", "quantity": 100, "unit": "g" },
+      { "name": "œufs", "quantity": 3, "unit": "unit" },
+      { "name": "sucre", "quantity": 25, "unit": "g" },
+      { "name": "crème liquide", "quantity": 100, "unit": "ml" }
+    ],
+    "steps": [
+      "Faire fondre le chocolat au bain-marie.",
+      "Battre les œufs et le sucre jusqu'à ce que le mélange blanchisse.",
+      "Incorporer le chocolat fondu puis la crème.",
+      "Réserver au frais pendant 2 heures."
+    ],
+    "time": "2 heures 30 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Gnocchis de pommes de terre",
+    "ingredients": [
+      { "name": "pommes de terre", "quantity": 500, "unit": "g" },
+      { "name": "farine", "quantity": 100, "unit": "g" },
+      { "name": "œufs", "quantity": 1, "unit": "unit" },
+      { "name": "sel", "quantity": 1, "unit": "cuil. à café" }
+    ],
+    "steps": [
+      "Faire cuire les pommes de terre à l'eau.",
+      "Écraser les pommes de terre et ajouter la farine, l'œuf et le sel.",
+      "Former des petites boules et les cuire dans l'eau bouillante.",
+      "Servir avec une sauce de votre choix."
+    ],
+    "time": "1 heure",
+    "servings": 4
+  },
+  {
+    "title": "Sauté de porc",
+    "ingredients": [
+      { "name": "porc", "quantity": 300, "unit": "g" },
+      { "name": "champignons", "quantity": 100, "unit": "g" },
+      { "name": "oignon", "quantity": 1, "unit": "unit" },
+      { "name": "sauce soja", "quantity": 30, "unit": "ml" },
+      { "name": "huile", "quantity": 10, "unit": "ml" }
+    ],
+    "steps": [
+      "Couper le porc et les champignons en morceaux.",
+      "Faire revenir l'oignon dans une poêle.",
+      "Ajouter le porc et les champignons, puis la sauce soja.",
+      "Cuire jusqu'à ce que la viande soit dorée."
+    ],
+    "time": "30 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Pudding de pain",
+    "ingredients": [
+      { "name": "pain", "quantity": 200, "unit": "g" },
+      { "name": "lait", "quantity": 250, "unit": "ml" },
+      { "name": "œufs", "quantity": 2, "unit": "unit" },
+      { "name": "sucre", "quantity": 50, "unit": "g" },
+      { "name": "vanille", "quantity": 1, "unit": "gousse" }
+    ],
+    "steps": [
+      "Préchauffer le four à 180°C.",
+      "Dans un saladier, mélanger le pain, le lait, les œufs, le sucre et la vanille.",
+      "Verser dans un moule et cuire au four pendant 30 minutes."
+    ],
+    "time": "40 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Pâté en croûte",
+    "ingredients": [
+      { "name": "pâte feuilletée", "quantity": 250, "unit": "g" },
+      { "name": "viande hachée", "quantity": 300, "unit": "g" },
+      { "name": "œufs", "quantity": 1, "unit": "unit" },
+      { "name": "herbes", "quantity": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Préchauffer le four à 180°C.",
+      "Mélanger la viande avec les herbes et l'œuf.",
+      "Étaler la pâte et y mettre le mélange de viande.",
+      "Recouvrir avec une autre pâte et cuire au four pendant 45 minutes."
+    ],
+    "time": "1 heure",
+    "servings": 6
+  },
+  {
+    "title": "Choux à la crème",
+    "ingredients": [
+      { "name": "farine", "quantity": 100, "unit": "g" },
+      { "name": "beurre", "quantity": 50, "unit": "g" },
+      { "name": "œufs", "quantity": 3, "unit": "unit" },
+      { "name": "crème fouettée", "quantity": 200, "unit": "ml" },
+      { "name": "sucre", "quantity": 25, "unit": "g" }
+    ],
+    "steps": [
+      "Préchauffer le four à 180°C.",
+      "Dans une casserole, faire fondre le beurre et ajouter la farine.",
+      "Ajouter les œufs un par un jusqu'à obtenir une pâte lisse.",
+      "Former des petites boules et cuire au four pendant 25 minutes.",
+      "Une fois refroidis, les garnir de crème fouettée sucrée."
+    ],
+    "time": "1 heure",
+    "servings": 4
+  },
+  {
+    "title": "Frittata",
+    "ingredients": [
+      { "name": "œufs", "quantity": 4, "unit": "unit" },
+      { "name": "courgette", "quantity": 1, "unit": "unit" },
+      { "name": "fromage", "quantity": 50, "unit": "g" },
+      { "name": "oignon", "quantity": 0.5, "unit": "unit" }
+    ],
+    "steps": [
+      "Battre les œufs dans un saladier.",
+      "Faire revenir l'oignon et la courgette dans une poêle.",
+      "Ajouter les œufs battus et cuire à feu doux jusqu'à ce que les œufs soient pris.",
+      "Parsemer de fromage avant de servir."
+    ],
+    "time": "30 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Pâtes au pesto",
+    "ingredients": [
+      { "name": "pâtes", "quantity": 100, "unit": "g" },
+      { "name": "pesto", "quantity": 30, "unit": "g" },
+      { "name": "parmesan", "quantity": 20, "unit": "g" },
+      { "name": "pignons de pin", "quantity": 10, "unit": "g" }
+    ],
+    "steps": [
+      "Cuire les pâtes dans une grande casserole d'eau salée.",
+      "Mélanger les pâtes cuites avec le pesto.",
+      "Servir avec des pignons de pin et du parmesan râpé sur le dessus."
+    ],
+    "time": "20 minutes",
+    "servings": 2
+  },
+  {
+    "title": "Salade de quinoa",
+    "ingredients": [
+      { "name": "quinoa", "quantity": 100, "unit": "g" },
+      { "name": "tomate", "quantity": 1, "unit": "unit" },
+      { "name": "concombre", "quantity": 0.5, "unit": "unit" },
+      { "name": "feta", "quantity": 50, "unit": "g" },
+      { "name": "huile d'olive", "quantity": 15, "unit": "ml" }
+    ],
+    "steps": [
+      "Faire cuire le quinoa selon les instructions.",
+      "Couper la tomate et le concombre en dés.",
+      "Mélanger le quinoa avec les légumes et la feta.",
+      "Arroser d'huile d'olive avant de servir."
+    ],
+    "time": "25 minutes",
+    "servings": 2
+  }
+]
