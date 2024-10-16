@@ -1,29 +1,21 @@
-const { Schema, model } = require('mongoose')
+const mongoose = require("mongoose");
 
-// TODO: Please make sure you edit the Book model to whatever makes sense in this case
-const bookSchema = new Schema(
-  {
-    title: {
-      type: String,
-      required: [true, 'Title is required.'],
-      trim: true,
-    },
-    author: {
-      type: String,
-      required: [true, 'Author is required.'],
-      trim: true,
-    },
-    pages: {
-      type: Number,
-      required: [true, 'Pages is required.'],
-    },
-  },
-  {
-    // this second object adds extra properties: `createdAt` and `updatedAt`
-    timestamps: true,
-  }
-)
+const ingredientSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  quantity: { type: Number, required: true },
+  unit: { type: String, required: true },
+});
 
-const Book = model('Book', bookSchema)
+const recipeSchema = new mongoose.Schema({
+  title: { type: String, required: true },
+  ingredients: [ingredientSchema],
+  steps: { type: [String], required: true },
+  time: { type: String, required: true },
+  servings: { type: Number, required: true },
+  createdAt: { type: Date, default: Date.now },
+  userId: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+});
 
-module.exports = Book
+const Recipe = mongoose.model("Recipe", recipeSchema);
+
+module.exports = Recipe;
