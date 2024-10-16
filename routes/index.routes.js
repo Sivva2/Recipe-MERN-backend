@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 const { isAuthenticated } = require("../middlewares/route-guard.middleware");
 const Recipe = require("../models/Recipe.model");
 
@@ -50,4 +51,12 @@ router.delete("/recipes/:recipeId", isAuthenticated, async (req, res, next) => {
   }
 });
 
+=======
+const router = require("express").Router();
+
+router.get("/", (req, res) => {
+  res.json("All good in here");
+});
+
+>>>>>>> Stashed changes
 module.exports = router;
