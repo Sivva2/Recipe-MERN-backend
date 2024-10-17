@@ -50,4 +50,28 @@ router.delete("/recipes/:recipeId", isAuthenticated, async (req, res, next) => {
   }
 });
 
+router.put("/recipes/:recipeId", isAuthenticated, async (req, res, next) => {
+  const { recipeId } = req.params;
+  try {
+    const recipeTarget = await Recipe.findById(recipeId);
+    if (!recipeTarget) {
+      return res.status(404).json({ message: "Recipe not found" });
+    }
+    if (recipeTarget.userId == req.tokenPayload.userId) {
+      const updatedRecipe = await Recipe.findByIdAndUpdate(
+        recipeId,
+        { ...req.body },
+        { new: true }
+      );
+      res.status(200).json(updatedRecipe);
+    } else {
+      res
+        .status(401)
+        .json({ message: "You cannot update recipes that are not yours" });
+    }
+  } catch (error) {
+    next(error);
+  }
+});
+
 module.exports = router;
