@@ -1,501 +1,799 @@
 [
   {
-    "title": "Pâtes à la carbonara",
+    "title": "Chocolate Chip Cookies",
+    "description": "Classic chocolate chip cookies that are soft and chewy.",
     "ingredients": [
-      { "name": "spaghetti", "quantity": 100, "unit": "g" },
-      { "name": "lardons", "quantity": 50, "unit": "g" },
-      { "name": "œufs", "quantity": 0.75, "unit": "unit" },
-      { "name": "parmesan", "quantity": 25, "unit": "g" }
+      { "name": "Butter", "quantity": 100, "unit": "grams" },
+      { "name": "Sugar", "quantity": 100, "unit": "grams" },
+      { "name": "Brown sugar", "quantity": 100, "unit": "grams" },
+      { "name": "Egg", "quantity": 1, "unit": "large" },
+      { "name": "Vanilla extract", "quantity": 1, "unit": "teaspoon" },
+      { "name": "Flour", "quantity": 200, "unit": "grams" },
+      { "name": "Baking soda", "quantity": 1, "unit": "teaspoon" },
+      { "name": "Chocolate chips", "quantity": 150, "unit": "grams" }
     ],
     "steps": [
-      "Cuire les spaghetti dans une grande casserole d'eau salée.",
-      "Dans une poêle, faire revenir les lardons jusqu'à ce qu'ils soient dorés.",
-      "Dans un bol, battre les œufs avec le parmesan, le sel et le poivre.",
-      "Une fois les pâtes cuites, les égoutter et les mélanger avec les lardons.",
-      "Ajouter le mélange œufs-parmesan et bien mélanger. Servir chaud."
+      "Preheat oven to 180°C (350°F).",
+      "Cream butter and sugars together.",
+      "Add egg and vanilla, mix well.",
+      "Stir in flour, baking soda, and chocolate chips.",
+      "Drop spoonfuls onto a baking sheet and bake for 10-12 minutes."
+    ],
+    "time": "30 minutes",
+    "servings": 12
+  },
+  {
+    "title": "Baked Salmon",
+    "description": "Healthy baked salmon with lemon and herbs.",
+    "ingredients": [
+      { "name": "Salmon fillet", "quantity": 400, "unit": "grams" },
+      { "name": "Lemon", "quantity": 1, "unit": "large" },
+      { "name": "Garlic", "quantity": 2, "unit": "cloves" },
+      { "name": "Olive oil", "quantity": 2, "unit": "tablespoons" },
+      { "name": "Dill", "quantity": 1, "unit": "teaspoon" }
+    ],
+    "steps": [
+      "Preheat oven to 200°C (400°F).",
+      "Place salmon on a baking sheet.",
+      "Drizzle with olive oil, lemon juice, minced garlic, and dill.",
+      "Bake for 15-20 minutes until cooked through."
+    ],
+    "time": "25 minutes",
+    "servings": 2
+  },
+  {
+    "title": "Chili Con Carne",
+    "description": "A spicy stew made with ground beef, beans, and chili spices.",
+    "ingredients": [
+      { "name": "Ground beef", "quantity": 500, "unit": "grams" },
+      { "name": "Red kidney beans", "quantity": 400, "unit": "grams" },
+      { "name": "Tomato sauce", "quantity": 400, "unit": "grams" },
+      { "name": "Onion", "quantity": 1, "unit": "large" },
+      { "name": "Chili powder", "quantity": 2, "unit": "tablespoons" }
+    ],
+    "steps": [
+      "Brown ground beef and chopped onion in a pot.",
+      "Add chili powder, beans, and tomato sauce.",
+      "Simmer for 30 minutes."
+    ],
+    "time": "45 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Pancakes",
+    "description": "Fluffy pancakes perfect for breakfast topped with syrup.",
+    "ingredients": [
+      { "name": "Flour", "quantity": 200, "unit": "grams" },
+      { "name": "Milk", "quantity": 250, "unit": "ml" },
+      { "name": "Egg", "quantity": 1, "unit": "large" },
+      { "name": "Baking powder", "quantity": 2, "unit": "teaspoons" },
+      { "name": "Butter", "quantity": 50, "unit": "grams" }
+    ],
+    "steps": [
+      "Mix flour, milk, egg, and baking powder in a bowl.",
+      "Melt butter and add to the mixture.",
+      "Pour batter onto a hot griddle and cook until bubbles form.",
+      "Flip and cook until golden brown."
     ],
     "time": "20 minutes",
     "servings": 4
   },
   {
-    "title": "Salade César",
+    "title": "Mango Smoothie",
+    "description": "A refreshing smoothie made with fresh mango and yogurt.",
     "ingredients": [
-      { "name": "laitue romaine", "quantity": 0.5, "unit": "unit" },
-      { "name": "croutons", "quantity": 50, "unit": "g" },
-      { "name": "parmesan", "quantity": 25, "unit": "g" },
-      { "name": "sauce César", "quantity": 15, "unit": "ml" }
+      { "name": "Mango", "quantity": 1, "unit": "large" },
+      { "name": "Yogurt", "quantity": 200, "unit": "grams" },
+      { "name": "Honey", "quantity": 1, "unit": "tablespoon" },
+      { "name": "Ice", "quantity": 1, "unit": "cup" }
     ],
     "steps": [
-      "Laver et couper la laitue romaine.",
-      "Dans un saladier, mélanger la laitue, les croutons et la sauce.",
-      "Râper le parmesan sur le dessus et ajouter du poivre au goût."
+      "Peel and chop the mango.",
+      "Blend mango, yogurt, honey, and ice until smooth."
     ],
     "time": "10 minutes",
     "servings": 2
   },
   {
-    "title": "Tarte aux pommes",
+    "title": "Egg Fried Rice",
+    "description": "Quick fried rice with eggs and vegetables.",
     "ingredients": [
-      { "name": "pâte brisée", "quantity": 125, "unit": "g" },
-      { "name": "pommes", "quantity": 1, "unit": "unit" },
-      { "name": "sucre", "quantity": 16.67, "unit": "g" },
-      { "name": "beurre", "quantity": 8.33, "unit": "g" },
-      { "name": "œuf", "quantity": 0.17, "unit": "unit" }
+      { "name": "Cooked rice", "quantity": 300, "unit": "grams" },
+      { "name": "Egg", "quantity": 2, "unit": "large" },
+      { "name": "Frozen peas", "quantity": 100, "unit": "grams" },
+      { "name": "Soy sauce", "quantity": 2, "unit": "tablespoons" },
+      { "name": "Green onion", "quantity": 1, "unit": "stalk" }
     ],
     "steps": [
-      "Préchauffer le four à 180°C.",
-      "Éplucher et couper les pommes en tranches.",
-      "Étaler la pâte dans un moule à tarte et disposer les pommes dessus.",
-      "Mélanger l'œuf avec le sucre et verser sur les pommes.",
-      "Ajouter des petits morceaux de beurre sur le dessus et cuire au four pendant 30 minutes."
+      "Scramble eggs in a pan and set aside.",
+      "Sauté peas and chopped green onion in the same pan.",
+      "Add cooked rice and soy sauce, mixing well.",
+      "Stir in the scrambled eggs before serving."
     ],
-    "time": "1 heure",
-    "servings": 6
-  },
-  {
-    "title": "Soupe à l'oignon",
-    "ingredients": [
-      { "name": "oignons", "quantity": 1, "unit": "unit" },
-      { "name": "beurre", "quantity": 12.5, "unit": "g" },
-      { "name": "bouillon de bœuf", "quantity": 250, "unit": "ml" },
-      { "name": "fromage râpé", "quantity": 25, "unit": "g" },
-      { "name": "pain", "quantity": 25, "unit": "g" }
-    ],
-    "steps": [
-      "Faire fondre le beurre dans une grande casserole.",
-      "Ajouter les oignons émincés et faire revenir jusqu'à ce qu'ils soient dorés.",
-      "Verser le bouillon de bœuf et laisser mijoter pendant 30 minutes.",
-      "Servir avec des tranches de pain et du fromage râpé."
-    ],
-    "time": "40 minutes",
-    "servings": 4
-  },
-  {
-    "title": "Ratatouille",
-    "ingredients": [
-      { "name": "aubergine", "quantity": 0.25, "unit": "unit" },
-      { "name": "courgette", "quantity": 0.5, "unit": "unit" },
-      { "name": "poivron", "quantity": 0.25, "unit": "unit" },
-      { "name": "tomates", "quantity": 1, "unit": "unit" },
-      { "name": "oignon", "quantity": 0.25, "unit": "unit" },
-      { "name": "herbes de Provence", "quantity": 1, "unit": "cuil. à café" }
-    ],
-    "steps": [
-      "Couper tous les légumes en dés.",
-      "Dans une poêle, faire revenir l'oignon jusqu'à ce qu'il soit translucide.",
-      "Ajouter les autres légumes et cuire pendant 30 minutes.",
-      "Assaisonner avec des herbes de Provence et servir."
-    ],
-    "time": "40 minutes",
-    "servings": 4
-  },
-  {
-    "title": "Chili con carne",
-    "ingredients": [
-      { "name": "viande hachée", "quantity": 125, "unit": "g" },
-      { "name": "haricots rouges", "quantity": 100, "unit": "g" },
-      { "name": "oignon", "quantity": 0.25, "unit": "unit" },
-      { "name": "poivron", "quantity": 0.25, "unit": "unit" },
-      { "name": "tomate concassée", "quantity": 50, "unit": "g" },
-      { "name": "épices chili", "quantity": 0.5, "unit": "cuil. à café" }
-    ],
-    "steps": [
-      "Faire revenir l'oignon et le poivron dans une poêle.",
-      "Ajouter la viande hachée et cuire jusqu'à ce qu'elle soit dorée.",
-      "Incorporer les haricots rouges et les tomates concassées.",
-      "Assaisonner avec les épices chili et laisser mijoter pendant 30 minutes."
-    ],
-    "time": "1 heure",
-    "servings": 4
-  },
-  {
-    "title": "Crêpes",
-    "ingredients": [
-      { "name": "farine", "quantity": 62.5, "unit": "g" },
-      { "name": "œufs", "quantity": 0.5, "unit": "unit" },
-      { "name": "lait", "quantity": 125, "unit": "ml" },
-      { "name": "beurre", "quantity": 12.5, "unit": "g" },
-      { "name": "sucre", "quantity": 5, "unit": "g" }
-    ],
-    "steps": [
-      "Dans un saladier, mélanger la farine et les œufs.",
-      "Ajouter progressivement le lait et le beurre fondu.",
-      "Laisser reposer la pâte pendant 30 minutes.",
-      "Cuire les crêpes dans une poêle chaude jusqu'à ce qu'elles soient dorées des deux côtés."
-    ],
-    "time": "1 heure",
-    "servings": 4
-  },
-  {
-    "title": "Boeuf bourguignon",
-    "ingredients": [
-      { "name": "boeuf", "quantity": 250, "unit": "g" },
-      { "name": "champignons", "quantity": 62.5, "unit": "g" },
-      { "name": "carottes", "quantity": 0.5, "unit": "unit" },
-      { "name": "vin rouge", "quantity": 125, "unit": "ml" },
-      { "name": "oignon", "quantity": 0.25, "unit": "unit" },
-      { "name": "herbes de Provence", "quantity": 0.5, "unit": "cuil. à café" }
-    ],
-    "steps": [
-      "Faire revenir la viande dans une grande cocotte.",
-      "Ajouter l'oignon émincé et les carottes coupées.",
-      "Verser le vin rouge et laisser mijoter pendant 2 heures.",
-      "Ajouter les champignons et cuire encore 30 minutes."
-    ],
-    "time": "3 heures",
-    "servings": 6
-  },
-  {
-    "title": "Pizza Margherita",
-    "ingredients": [
-      { "name": "pâte à pizza", "quantity": 125, "unit": "g" },
-      { "name": "tomates concassées", "quantity": 50, "unit": "g" },
-      { "name": "mozzarella", "quantity": 75, "unit": "g" },
-      { "name": "basilic", "quantity": 1, "unit": "feuille" },
-      { "name": "huile d'olive", "quantity": 5, "unit": "ml" }
-    ],
-    "steps": [
-      "Préchauffer le four à 220°C.",
-      "Étaler la pâte à pizza sur une plaque.",
-      "Étaler les tomates concassées sur la pâte.",
-      "Ajouter la mozzarella et le basilic.",
-      "Arroser d'huile d'olive et cuire au four pendant 15-20 minutes."
-    ],
-    "time": "30 minutes",
+    "time": "15 minutes",
     "servings": 2
   },
   {
-    "title": "Gâteau au chocolat",
+    "title": "Greek Salad",
+    "description": "A fresh and healthy salad with tomatoes, cucumber, and feta cheese.",
     "ingredients": [
-      { "name": "chocolat noir", "quantity": 100, "unit": "g" },
-      { "name": "beurre", "quantity": 50, "unit": "g" },
-      { "name": "sucre", "quantity": 75, "unit": "g" },
-      { "name": "farine", "quantity": 25, "unit": "g" },
-      { "name": "œufs", "quantity": 2, "unit": "unit" }
+      { "name": "Cucumber", "quantity": 1, "unit": "large" },
+      { "name": "Tomatoes", "quantity": 2, "unit": "medium" },
+      { "name": "Feta cheese", "quantity": 100, "unit": "grams" },
+      { "name": "Olives", "quantity": 50, "unit": "grams" },
+      { "name": "Olive oil", "quantity": 2, "unit": "tablespoons" }
     ],
     "steps": [
-      "Préchauffer le four à 180°C.",
-      "Faire fondre le chocolat et le beurre au bain-marie.",
-      "Dans un saladier, battre les œufs avec le sucre.",
-      "Incorporer le mélange chocolat-beurre puis la farine.",
-      "Verser dans un moule et cuire pendant 20 minutes."
+      "Chop cucumber and tomatoes into bite-sized pieces.",
+      "Mix in feta cheese and olives.",
+      "Drizzle with olive oil before serving."
     ],
-    "time": "40 minutes",
-    "servings": 6
-  },
-  {
-    "title": "Lasagnes",
-    "ingredients": [
-      { "name": "lasagnes", "quantity": 200, "unit": "g" },
-      { "name": "viande hachée", "quantity": 250, "unit": "g" },
-      { "name": "tomates concassées", "quantity": 200, "unit": "g" },
-      { "name": "béchamel", "quantity": 200, "unit": "g" },
-      { "name": "fromage râpé", "quantity": 100, "unit": "g" }
-    ],
-    "steps": [
-      "Préchauffer le four à 180°C.",
-      "Faire revenir la viande hachée et ajouter les tomates concassées.",
-      "Dans un plat, alterner les couches de lasagnes, viande et béchamel.",
-      "Terminer par une couche de béchamel et de fromage râpé.",
-      "Cuire au four pendant 40 minutes."
-    ],
-    "time": "1 heure",
-    "servings": 4
-  },
-  {
-    "title": "Pêches au sirop",
-    "ingredients": [
-      { "name": "pêches", "quantity": 2, "unit": "unit" },
-      { "name": "sucre", "quantity": 50, "unit": "g" },
-      { "name": "eau", "quantity": 250, "unit": "ml" },
-      { "name": "jus de citron", "quantity": 10, "unit": "ml" }
-    ],
-    "steps": [
-      "Dans une casserole, porter l'eau et le sucre à ébullition.",
-      "Ajouter les pêches pelées et coupées en deux.",
-      "Laisser mijoter pendant 15 minutes.",
-      "Ajouter le jus de citron et laisser refroidir."
-    ],
-    "time": "30 minutes",
-    "servings": 4
-  },
-  {
-    "title": "Riz au lait",
-    "ingredients": [
-      { "name": "riz", "quantity": 50, "unit": "g" },
-      { "name": "lait", "quantity": 500, "unit": "ml" },
-      { "name": "sucre", "quantity": 50, "unit": "g" },
-      { "name": "vanille", "quantity": 1, "unit": "gousse" }
-    ],
-    "steps": [
-      "Dans une casserole, porter le lait à ébullition avec la gousse de vanille.",
-      "Ajouter le riz et cuire à feu doux pendant 30 minutes.",
-      "Incorporer le sucre et laisser refroidir."
-    ],
-    "time": "1 heure",
-    "servings": 4
-  },
-  {
-    "title": "Quiche Lorraine",
-    "ingredients": [
-      { "name": "pâte brisée", "quantity": 125, "unit": "g" },
-      { "name": "lardons", "quantity": 100, "unit": "g" },
-      { "name": "œufs", "quantity": 3, "unit": "unit" },
-      { "name": "crème fraîche", "quantity": 200, "unit": "ml" },
-      { "name": "fromage râpé", "quantity": 50, "unit": "g" }
-    ],
-    "steps": [
-      "Préchauffer le four à 180°C.",
-      "Étaler la pâte dans un moule à tarte.",
-      "Faire revenir les lardons et les répartir sur la pâte.",
-      "Dans un saladier, mélanger les œufs, la crème et le fromage.",
-      "Verser le mélange sur les lardons et cuire au four pendant 30 minutes."
-    ],
-    "time": "1 heure",
-    "servings": 6
-  },
-  {
-    "title": "Brochettes de poulet",
-    "ingredients": [
-      { "name": "poulet", "quantity": 300, "unit": "g" },
-      { "name": "poivron", "quantity": 1, "unit": "unit" },
-      { "name": "oignon", "quantity": 0.5, "unit": "unit" },
-      { "name": "épices", "quantity": 5, "unit": "g" },
-      { "name": "huile d'olive", "quantity": 10, "unit": "ml" }
-    ],
-    "steps": [
-      "Couper le poulet et les légumes en morceaux.",
-      "Mélanger l'huile et les épices et mariner le poulet.",
-      "Enfiler le poulet et les légumes sur des brochettes.",
-      "Griller les brochettes pendant 15 minutes."
-    ],
-    "time": "30 minutes",
-    "servings": 4
-  },
-  {
-    "title": "Tacos au poulet",
-    "ingredients": [
-      { "name": "tortillas", "quantity": 4, "unit": "unit" },
-      { "name": "poulet", "quantity": 200, "unit": "g" },
-      { "name": "tomate", "quantity": 1, "unit": "unit" },
-      { "name": "salade", "quantity": 50, "unit": "g" },
-      { "name": "sauce", "quantity": 30, "unit": "ml" }
-    ],
-    "steps": [
-      "Faire cuire le poulet et le couper en morceaux.",
-      "Chauffer les tortillas dans une poêle.",
-      "Remplir chaque tortilla de poulet, tomate et salade.",
-      "Ajouter de la sauce et servir."
-    ],
-    "time": "20 minutes",
-    "servings": 4
-  },
-  {
-    "title": "Sushi",
-    "ingredients": [
-      { "name": "riz à sushi", "quantity": 150, "unit": "g" },
-      { "name": "nori", "quantity": 2, "unit": "feuille" },
-      { "name": "saumon", "quantity": 100, "unit": "g" },
-      { "name": "avocat", "quantity": 0.5, "unit": "unit" },
-      { "name": "vinaigre de riz", "quantity": 15, "unit": "ml" }
-    ],
-    "steps": [
-      "Cuire le riz à sushi et l'assaisonner avec le vinaigre.",
-      "Couper le saumon et l'avocat en fines tranches.",
-      "Étaler le riz sur les feuilles de nori et ajouter le saumon et l'avocat.",
-      "Rouler le tout et couper en morceaux."
-    ],
-    "time": "1 heure",
+    "time": "10 minutes",
     "servings": 2
   },
   {
-    "title": "Ragoût de légumes",
+    "title": "Caprese Salad",
+    "description": "A fresh salad made with mozzarella, tomatoes, and basil.",
     "ingredients": [
-      { "name": "carottes", "quantity": 2, "unit": "unit" },
-      { "name": "pommes de terre", "quantity": 2, "unit": "unit" },
-      { "name": "courgette", "quantity": 1, "unit": "unit" },
-      { "name": "bouillon de légumes", "quantity": 500, "unit": "ml" },
-      { "name": "herbes de Provence", "quantity": 1, "unit": "cuil. à café" }
+      { "name": "Fresh mozzarella", "quantity": 200, "unit": "grams" },
+      { "name": "Tomatoes", "quantity": 2, "unit": "large" },
+      { "name": "Fresh basil", "quantity": 10, "unit": "leaves" },
+      { "name": "Olive oil", "quantity": 2, "unit": "tablespoons" },
+      { "name": "Balsamic vinegar", "quantity": 1, "unit": "tablespoon" }
     ],
     "steps": [
-      "Couper tous les légumes en morceaux.",
-      "Dans une casserole, faire revenir les légumes avec les herbes.",
-      "Ajouter le bouillon de légumes et laisser mijoter pendant 30 minutes."
+      "Slice mozzarella and tomatoes.",
+      "Layer mozzarella, tomatoes, and basil leaves.",
+      "Drizzle with olive oil and balsamic vinegar before serving."
+    ],
+    "time": "15 minutes",
+    "servings": 2
+  },
+  {
+    "title": "Vegetable Quiche",
+    "description": "A savory pie filled with vegetables and cheese.",
+    "ingredients": [
+      { "name": "Pie crust", "quantity": 1, "unit": "piece" },
+      { "name": "Eggs", "quantity": 3, "unit": "large" },
+      { "name": "Milk", "quantity": 200, "unit": "ml" },
+      { "name": "Spinach", "quantity": 100, "unit": "grams" },
+      { "name": "Cheddar cheese", "quantity": 100, "unit": "grams" }
+    ],
+    "steps": [
+      "Preheat oven to 180°C (350°F).",
+      "Whisk eggs and milk together.",
+      "Add chopped spinach and grated cheese.",
+      "Pour mixture into pie crust and bake for 30-35 minutes."
+    ],
+    "time": "45 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Stuffed Bell Peppers",
+    "description": "Bell peppers stuffed with rice, ground meat, and spices.",
+    "ingredients": [
+      { "name": "Bell peppers", "quantity": 4, "unit": "pieces" },
+      { "name": "Ground beef", "quantity": 300, "unit": "grams" },
+      { "name": "Cooked rice", "quantity": 200, "unit": "grams" },
+      { "name": "Tomato sauce", "quantity": 200, "unit": "grams" },
+      { "name": "Onion", "quantity": 1, "unit": "large" }
+    ],
+    "steps": [
+      "Preheat oven to 190°C (375°F).",
+      "Sauté chopped onion and ground beef until browned.",
+      "Mix in cooked rice and tomato sauce.",
+      "Stuff the mixture into halved bell peppers and bake for 30 minutes."
+    ],
+    "time": "1 hour",
+    "servings": 4
+  },
+  {
+    "title": "Banana Bread",
+    "description": "Moist and delicious banana bread perfect for breakfast or snacks.",
+    "ingredients": [
+      { "name": "Bananas", "quantity": 3, "unit": "large" },
+      { "name": "Flour", "quantity": 200, "unit": "grams" },
+      { "name": "Sugar", "quantity": 100, "unit": "grams" },
+      { "name": "Butter", "quantity": 100, "unit": "grams" },
+      { "name": "Baking soda", "quantity": 1, "unit": "teaspoon" }
+    ],
+    "steps": [
+      "Preheat oven to 175°C (350°F).",
+      "Mash bananas in a bowl.",
+      "Mix in melted butter, sugar, and baking soda.",
+      "Stir in flour until just combined.",
+      "Pour batter into a loaf pan and bake for 50-60 minutes."
+    ],
+    "time": "1 hour 10 minutes",
+    "servings": 8
+  },
+  {
+    "title": "Oven-Baked Fries",
+    "description": "Crispy and healthy oven-baked fries seasoned with herbs.",
+    "ingredients": [
+      { "name": "Potatoes", "quantity": 4, "unit": "large" },
+      { "name": "Olive oil", "quantity": 2, "unit": "tablespoons" },
+      { "name": "Salt", "quantity": 1, "unit": "teaspoon" },
+      { "name": "Paprika", "quantity": 1, "unit": "teaspoon" }
+    ],
+    "steps": [
+      "Preheat oven to 220°C (428°F).",
+      "Cut potatoes into wedges and toss with olive oil, salt, and paprika.",
+      "Spread on a baking sheet and bake for 30-35 minutes."
     ],
     "time": "40 minutes",
     "servings": 4
   },
   {
-    "title": "Curry de lentilles",
+    "title": "Shrimp Scampi",
+    "description": "Garlic shrimp served over pasta with a hint of lemon.",
     "ingredients": [
-      { "name": "lentilles", "quantity": 100, "unit": "g" },
-      { "name": "coconut milk", "quantity": 200, "unit": "ml" },
-      { "name": "oignon", "quantity": 0.5, "unit": "unit" },
-      { "name": "curry en poudre", "quantity": 1, "unit": "cuil. à café" },
-      { "name": "épices", "quantity": 5, "unit": "g" }
+      { "name": "Shrimp", "quantity": 400, "unit": "grams" },
+      { "name": "Spaghetti", "quantity": 200, "unit": "grams" },
+      { "name": "Garlic", "quantity": 4, "unit": "cloves" },
+      { "name": "Butter", "quantity": 50, "unit": "grams" },
+      { "name": "Lemon juice", "quantity": 2, "unit": "tablespoons" }
     ],
     "steps": [
-      "Faire revenir l'oignon dans une casserole.",
-      "Ajouter les lentilles et les épices.",
-      "Verser le lait de coco et laisser mijoter pendant 30 minutes."
-    ],
-    "time": "40 minutes",
-    "servings": 4
-  },
-  {
-    "title": "Mousse au chocolat",
-    "ingredients": [
-      { "name": "chocolat noir", "quantity": 100, "unit": "g" },
-      { "name": "œufs", "quantity": 3, "unit": "unit" },
-      { "name": "sucre", "quantity": 25, "unit": "g" },
-      { "name": "crème liquide", "quantity": 100, "unit": "ml" }
-    ],
-    "steps": [
-      "Faire fondre le chocolat au bain-marie.",
-      "Battre les œufs et le sucre jusqu'à ce que le mélange blanchisse.",
-      "Incorporer le chocolat fondu puis la crème.",
-      "Réserver au frais pendant 2 heures."
-    ],
-    "time": "2 heures 30 minutes",
-    "servings": 4
-  },
-  {
-    "title": "Gnocchis de pommes de terre",
-    "ingredients": [
-      { "name": "pommes de terre", "quantity": 500, "unit": "g" },
-      { "name": "farine", "quantity": 100, "unit": "g" },
-      { "name": "œufs", "quantity": 1, "unit": "unit" },
-      { "name": "sel", "quantity": 1, "unit": "cuil. à café" }
-    ],
-    "steps": [
-      "Faire cuire les pommes de terre à l'eau.",
-      "Écraser les pommes de terre et ajouter la farine, l'œuf et le sel.",
-      "Former des petites boules et les cuire dans l'eau bouillante.",
-      "Servir avec une sauce de votre choix."
-    ],
-    "time": "1 heure",
-    "servings": 4
-  },
-  {
-    "title": "Sauté de porc",
-    "ingredients": [
-      { "name": "porc", "quantity": 300, "unit": "g" },
-      { "name": "champignons", "quantity": 100, "unit": "g" },
-      { "name": "oignon", "quantity": 1, "unit": "unit" },
-      { "name": "sauce soja", "quantity": 30, "unit": "ml" },
-      { "name": "huile", "quantity": 10, "unit": "ml" }
-    ],
-    "steps": [
-      "Couper le porc et les champignons en morceaux.",
-      "Faire revenir l'oignon dans une poêle.",
-      "Ajouter le porc et les champignons, puis la sauce soja.",
-      "Cuire jusqu'à ce que la viande soit dorée."
-    ],
-    "time": "30 minutes",
-    "servings": 4
-  },
-  {
-    "title": "Pudding de pain",
-    "ingredients": [
-      { "name": "pain", "quantity": 200, "unit": "g" },
-      { "name": "lait", "quantity": 250, "unit": "ml" },
-      { "name": "œufs", "quantity": 2, "unit": "unit" },
-      { "name": "sucre", "quantity": 50, "unit": "g" },
-      { "name": "vanille", "quantity": 1, "unit": "gousse" }
-    ],
-    "steps": [
-      "Préchauffer le four à 180°C.",
-      "Dans un saladier, mélanger le pain, le lait, les œufs, le sucre et la vanille.",
-      "Verser dans un moule et cuire au four pendant 30 minutes."
-    ],
-    "time": "40 minutes",
-    "servings": 4
-  },
-  {
-    "title": "Pâté en croûte",
-    "ingredients": [
-      { "name": "pâte feuilletée", "quantity": 250, "unit": "g" },
-      { "name": "viande hachée", "quantity": 300, "unit": "g" },
-      { "name": "œufs", "quantity": 1, "unit": "unit" },
-      { "name": "herbes", "quantity": 5, "unit": "g" }
-    ],
-    "steps": [
-      "Préchauffer le four à 180°C.",
-      "Mélanger la viande avec les herbes et l'œuf.",
-      "Étaler la pâte et y mettre le mélange de viande.",
-      "Recouvrir avec une autre pâte et cuire au four pendant 45 minutes."
-    ],
-    "time": "1 heure",
-    "servings": 6
-  },
-  {
-    "title": "Choux à la crème",
-    "ingredients": [
-      { "name": "farine", "quantity": 100, "unit": "g" },
-      { "name": "beurre", "quantity": 50, "unit": "g" },
-      { "name": "œufs", "quantity": 3, "unit": "unit" },
-      { "name": "crème fouettée", "quantity": 200, "unit": "ml" },
-      { "name": "sucre", "quantity": 25, "unit": "g" }
-    ],
-    "steps": [
-      "Préchauffer le four à 180°C.",
-      "Dans une casserole, faire fondre le beurre et ajouter la farine.",
-      "Ajouter les œufs un par un jusqu'à obtenir une pâte lisse.",
-      "Former des petites boules et cuire au four pendant 25 minutes.",
-      "Une fois refroidis, les garnir de crème fouettée sucrée."
-    ],
-    "time": "1 heure",
-    "servings": 4
-  },
-  {
-    "title": "Frittata",
-    "ingredients": [
-      { "name": "œufs", "quantity": 4, "unit": "unit" },
-      { "name": "courgette", "quantity": 1, "unit": "unit" },
-      { "name": "fromage", "quantity": 50, "unit": "g" },
-      { "name": "oignon", "quantity": 0.5, "unit": "unit" }
-    ],
-    "steps": [
-      "Battre les œufs dans un saladier.",
-      "Faire revenir l'oignon et la courgette dans une poêle.",
-      "Ajouter les œufs battus et cuire à feu doux jusqu'à ce que les œufs soient pris.",
-      "Parsemer de fromage avant de servir."
-    ],
-    "time": "30 minutes",
-    "servings": 4
-  },
-  {
-    "title": "Pâtes au pesto",
-    "ingredients": [
-      { "name": "pâtes", "quantity": 100, "unit": "g" },
-      { "name": "pesto", "quantity": 30, "unit": "g" },
-      { "name": "parmesan", "quantity": 20, "unit": "g" },
-      { "name": "pignons de pin", "quantity": 10, "unit": "g" }
-    ],
-    "steps": [
-      "Cuire les pâtes dans une grande casserole d'eau salée.",
-      "Mélanger les pâtes cuites avec le pesto.",
-      "Servir avec des pignons de pin et du parmesan râpé sur le dessus."
+      "Cook spaghetti according to package instructions.",
+      "In a skillet, melt butter and add minced garlic.",
+      "Add shrimp and cook until pink.",
+      "Toss with cooked spaghetti and lemon juice before serving."
     ],
     "time": "20 minutes",
     "servings": 2
   },
   {
-    "title": "Salade de quinoa",
+    "title": "Pesto Pasta",
+    "description": "Pasta tossed in a flavorful basil pesto sauce.",
     "ingredients": [
-      { "name": "quinoa", "quantity": 100, "unit": "g" },
-      { "name": "tomate", "quantity": 1, "unit": "unit" },
-      { "name": "concombre", "quantity": 0.5, "unit": "unit" },
-      { "name": "feta", "quantity": 50, "unit": "g" },
-      { "name": "huile d'olive", "quantity": 15, "unit": "ml" }
+      { "name": "Pasta", "quantity": 200, "unit": "grams" },
+      { "name": "Pesto", "quantity": 100, "unit": "grams" },
+      { "name": "Parmesan cheese", "quantity": 50, "unit": "grams" },
+      { "name": "Olive oil", "quantity": 1, "unit": "tablespoon" },
+      { "name": "Pine nuts", "quantity": 30, "unit": "grams" }
     ],
     "steps": [
-      "Faire cuire le quinoa selon les instructions.",
-      "Couper la tomate et le concombre en dés.",
-      "Mélanger le quinoa avec les légumes et la feta.",
-      "Arroser d'huile d'olive avant de servir."
+      "Cook pasta according to package instructions.",
+      "Toss hot pasta with pesto and olive oil.",
+      "Garnish with Parmesan and pine nuts before serving."
+    ],
+    "time": "20 minutes",
+    "servings": 2
+  },
+  {
+    "title": "Tom Yum Soup",
+    "description": "A hot and sour Thai soup with shrimp and mushrooms.",
+    "ingredients": [
+      { "name": "Shrimp", "quantity": 200, "unit": "grams" },
+      { "name": "Mushrooms", "quantity": 100, "unit": "grams" },
+      { "name": "Lemongrass", "quantity": 1, "unit": "stalk" },
+      { "name": "Lime juice", "quantity": 2, "unit": "tablespoons" },
+      { "name": "Chili paste", "quantity": 1, "unit": "tablespoon" }
+    ],
+    "steps": [
+      "In a pot, combine water, lemongrass, and bring to a boil.",
+      "Add shrimp and mushrooms; cook until shrimp is pink.",
+      "Stir in lime juice and chili paste before serving."
     ],
     "time": "25 minutes",
     "servings": 2
+  },
+  {
+    "title": "Beef Stroganoff",
+    "description": "A creamy beef dish served over egg noodles.",
+    "ingredients": [
+      { "name": "Beef strips", "quantity": 500, "unit": "grams" },
+      { "name": "Mushrooms", "quantity": 200, "unit": "grams" },
+      { "name": "Onion", "quantity": 1, "unit": "medium" },
+      { "name": "Sour cream", "quantity": 200, "unit": "grams" },
+      { "name": "Egg noodles", "quantity": 200, "unit": "grams" }
+    ],
+    "steps": [
+      "Cook egg noodles according to package instructions.",
+      "In a pan, cook onions and mushrooms until soft.",
+      "Add beef strips and cook until browned.",
+      "Stir in sour cream and serve over egg noodles."
+    ],
+    "time": "35 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Pineapple Fried Rice",
+    "description": "Fried rice with pineapple, shrimp, and cashews.",
+    "ingredients": [
+      { "name": "Cooked rice", "quantity": 300, "unit": "grams" },
+      { "name": "Pineapple", "quantity": 200, "unit": "grams" },
+      { "name": "Shrimp", "quantity": 200, "unit": "grams" },
+      { "name": "Cashews", "quantity": 50, "unit": "grams" },
+      { "name": "Soy sauce", "quantity": 2, "unit": "tablespoons" }
+    ],
+    "steps": [
+      "In a pan, sauté shrimp until pink.",
+      "Add cooked rice, pineapple, and cashews.",
+      "Drizzle with soy sauce and stir-fry for a few minutes."
+    ],
+    "time": "20 minutes",
+    "servings": 2
+  },
+  {
+    "title": "Coconut Rice",
+    "description": "Fluffy rice cooked with coconut milk for a tropical flavor.",
+    "ingredients": [
+      { "name": "Rice", "quantity": 200, "unit": "grams" },
+      { "name": "Coconut milk", "quantity": 400, "unit": "ml" },
+      { "name": "Salt", "quantity": 1, "unit": "teaspoon" },
+      { "name": "Water", "quantity": 200, "unit": "ml" }
+    ],
+    "steps": [
+      "Rinse rice under cold water.",
+      "Combine rice, coconut milk, water, and salt in a pot.",
+      "Bring to a boil, then reduce heat and simmer until rice is cooked."
+    ],
+    "time": "25 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Beef Tacos",
+    "description": "Tacos filled with seasoned ground beef and fresh toppings.",
+    "ingredients": [
+      { "name": "Ground beef", "quantity": 400, "unit": "grams" },
+      { "name": "Taco shells", "quantity": 8, "unit": "pieces" },
+      { "name": "Lettuce", "quantity": 100, "unit": "grams" },
+      { "name": "Tomato", "quantity": 1, "unit": "large" },
+      { "name": "Cheddar cheese", "quantity": 100, "unit": "grams" }
+    ],
+    "steps": [
+      "Brown ground beef in a skillet.",
+      "Fill taco shells with beef, lettuce, diced tomato, and cheese."
+    ],
+    "time": "20 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Quinoa Salad",
+    "description": "A healthy salad made with quinoa, vegetables, and a lemon dressing.",
+    "ingredients": [
+      { "name": "Quinoa", "quantity": 200, "unit": "grams" },
+      { "name": "Cucumber", "quantity": 1, "unit": "large" },
+      { "name": "Cherry tomatoes", "quantity": 200, "unit": "grams" },
+      { "name": "Lemon", "quantity": 1, "unit": "large" },
+      { "name": "Olive oil", "quantity": 2, "unit": "tablespoons" }
+    ],
+    "steps": [
+      "Cook quinoa according to package instructions.",
+      "Chop cucumber and halve cherry tomatoes.",
+      "Mix cooked quinoa with vegetables and dress with lemon juice and olive oil."
+    ],
+    "time": "30 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Veggie Stir-Fry",
+    "description": "A colorful mix of vegetables stir-fried in a savory sauce.",
+    "ingredients": [
+      { "name": "Broccoli", "quantity": 100, "unit": "grams" },
+      { "name": "Bell peppers", "quantity": 100, "unit": "grams" },
+      { "name": "Carrot", "quantity": 1, "unit": "large" },
+      { "name": "Soy sauce", "quantity": 2, "unit": "tablespoons" },
+      { "name": "Olive oil", "quantity": 1, "unit": "tablespoon" }
+    ],
+    "steps": [
+      "Heat olive oil in a pan.",
+      "Add chopped vegetables and stir-fry until tender.",
+      "Drizzle with soy sauce before serving."
+    ],
+    "time": "15 minutes",
+    "servings": 2
+  },
+  {
+    "title": "Baked Ziti",
+    "description": "A comforting baked pasta dish with cheese and marinara sauce.",
+    "ingredients": [
+      { "name": "Ziti pasta", "quantity": 300, "unit": "grams" },
+      { "name": "Marinara sauce", "quantity": 500, "unit": "grams" },
+      { "name": "Mozzarella cheese", "quantity": 200, "unit": "grams" },
+      { "name": "Parmesan cheese", "quantity": 50, "unit": "grams" },
+      { "name": "Italian seasoning", "quantity": 1, "unit": "teaspoon" }
+    ],
+    "steps": [
+      "Preheat oven to 180°C (350°F).",
+      "Cook ziti according to package instructions.",
+      "Mix cooked ziti with marinara sauce and half of the mozzarella.",
+      "Pour into a baking dish, top with remaining mozzarella and Parmesan.",
+      "Bake for 25-30 minutes."
+    ],
+    "time": "1 hour",
+    "servings": 4
+  },
+  {
+    "title": "Spaghetti Carbonara",
+    "description": "A classic Italian pasta dish with creamy sauce and pancetta.",
+    "ingredients": [
+      { "name": "Spaghetti", "quantity": 200, "unit": "grams" },
+      { "name": "Pancetta", "quantity": 150, "unit": "grams" },
+      { "name": "Eggs", "quantity": 3, "unit": "large" },
+      { "name": "Parmesan cheese", "quantity": 100, "unit": "grams" },
+      { "name": "Black pepper", "quantity": 1, "unit": "teaspoon" }
+    ],
+    "steps": [
+      "Cook spaghetti according to package instructions.",
+      "In a pan, cook pancetta until crispy.",
+      "Whisk together eggs and Parmesan.",
+      "Toss hot spaghetti with pancetta and egg mixture before serving."
+    ],
+    "time": "30 minutes",
+    "servings": 2
+  },
+  {
+    "title": "Lemon Bars",
+    "description": "Sweet and tangy lemon bars with a buttery crust.",
+    "ingredients": [
+      { "name": "Flour", "quantity": 250, "unit": "grams" },
+      { "name": "Butter", "quantity": 125, "unit": "grams" },
+      { "name": "Sugar", "quantity": 200, "unit": "grams" },
+      { "name": "Lemon juice", "quantity": 100, "unit": "ml" },
+      { "name": "Eggs", "quantity": 2, "unit": "large" }
+    ],
+    "steps": [
+      "Preheat oven to 180°C (350°F).",
+      "Mix flour, butter, and sugar for the crust and press into a baking dish.",
+      "Bake for 20 minutes.",
+      "Whisk together eggs, lemon juice, and sugar for the filling.",
+      "Pour over the baked crust and bake for another 20 minutes."
+    ],
+    "time": "1 hour",
+    "servings": 12
+  },
+  {
+    "title": "Ratatouille",
+    "description": "A classic French dish made with summer vegetables.",
+    "ingredients": [
+      { "name": "Eggplant", "quantity": 1, "unit": "large" },
+      { "name": "Zucchini", "quantity": 1, "unit": "large" },
+      { "name": "Bell pepper", "quantity": 1, "unit": "large" },
+      { "name": "Tomato", "quantity": 2, "unit": "large" },
+      { "name": "Onion", "quantity": 1, "unit": "large" }
+    ],
+    "steps": [
+      "Chop all vegetables into bite-sized pieces.",
+      "Sauté onion in a pan until translucent.",
+      "Add remaining vegetables and cook until tender.",
+      "Season with salt and pepper before serving."
+    ],
+    "time": "45 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Chicken Curry",
+    "description": "A rich and spicy chicken curry served with rice.",
+    "ingredients": [
+      { "name": "Chicken breast", "quantity": 500, "unit": "grams" },
+      { "name": "Coconut milk", "quantity": 400, "unit": "ml" },
+      { "name": "Curry powder", "quantity": 2, "unit": "tablespoons" },
+      { "name": "Onion", "quantity": 1, "unit": "medium" },
+      { "name": "Rice", "quantity": 200, "unit": "grams" }
+    ],
+    "steps": [
+      "Cook rice according to package instructions.",
+      "Sauté onion until soft.",
+      "Add chicken and curry powder, cooking until browned.",
+      "Stir in coconut milk and simmer for 20 minutes."
+    ],
+    "time": "1 hour",
+    "servings": 4
+  },
+  {
+    "title": "Cabbage Rolls",
+    "description": "Cabbage leaves stuffed with ground meat and rice.",
+    "ingredients": [
+      { "name": "Cabbage", "quantity": 1, "unit": "large" },
+      { "name": "Ground beef", "quantity": 400, "unit": "grams" },
+      { "name": "Cooked rice", "quantity": 200, "unit": "grams" },
+      { "name": "Tomato sauce", "quantity": 300, "unit": "grams" },
+      { "name": "Onion", "quantity": 1, "unit": "large" }
+    ],
+    "steps": [
+      "Preheat oven to 180°C (350°F).",
+      "Blanch cabbage leaves in boiling water.",
+      "Mix ground beef, cooked rice, and chopped onion.",
+      "Stuff leaves with mixture and place in a baking dish.",
+      "Pour tomato sauce over and bake for 45 minutes."
+    ],
+    "time": "1 hour 15 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Pumpkin Soup",
+    "description": "A creamy and comforting pumpkin soup perfect for fall.",
+    "ingredients": [
+      { "name": "Pumpkin", "quantity": 500, "unit": "grams" },
+      { "name": "Onion", "quantity": 1, "unit": "large" },
+      { "name": "Garlic", "quantity": 2, "unit": "cloves" },
+      { "name": "Vegetable broth", "quantity": 1, "unit": "litre" },
+      { "name": "Cream", "quantity": 100, "unit": "ml" }
+    ],
+    "steps": [
+      "Sauté onion and garlic until soft.",
+      "Add chopped pumpkin and broth; simmer until pumpkin is tender.",
+      "Blend until smooth, then stir in cream before serving."
+    ],
+    "time": "40 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Chocolate Chip Cookies",
+    "description": "Classic chocolate chip cookies that are chewy and delicious.",
+    "ingredients": [
+      { "name": "Flour", "quantity": 250, "unit": "grams" },
+      { "name": "Butter", "quantity": 125, "unit": "grams" },
+      { "name": "Sugar", "quantity": 100, "unit": "grams" },
+      { "name": "Brown sugar", "quantity": 100, "unit": "grams" },
+      { "name": "Chocolate chips", "quantity": 200, "unit": "grams" }
+    ],
+    "steps": [
+      "Preheat oven to 180°C (350°F).",
+      "Cream together butter, sugar, and brown sugar.",
+      "Mix in flour until just combined, then fold in chocolate chips.",
+      "Drop spoonfuls onto a baking sheet and bake for 10-12 minutes."
+    ],
+    "time": "30 minutes",
+    "servings": 24
+  },
+
+  {
+    "title": "Vegetable Fried Rice",
+    "description": "A quick and easy fried rice loaded with colorful vegetables.",
+    "ingredients": [
+      { "name": "Cooked rice", "quantity": 300, "unit": "grams" },
+      { "name": "Mixed vegetables", "quantity": 200, "unit": "grams" },
+      { "name": "Soy sauce", "quantity": 2, "unit": "tablespoons" },
+      { "name": "Eggs", "quantity": 2, "unit": "large" },
+      { "name": "Green onions", "quantity": 2, "unit": "pieces" }
+    ],
+    "steps": [
+      "In a pan, scramble the eggs and set aside.",
+      "In the same pan, stir-fry mixed vegetables until tender.",
+      "Add cooked rice and soy sauce, mixing well.",
+      "Fold in scrambled eggs and chopped green onions before serving."
+    ],
+    "time": "20 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Chickpea Salad",
+    "description": "A refreshing salad made with chickpeas and fresh vegetables.",
+    "ingredients": [
+      { "name": "Chickpeas", "quantity": 400, "unit": "grams" },
+      { "name": "Cucumber", "quantity": 1, "unit": "large" },
+      { "name": "Cherry tomatoes", "quantity": 200, "unit": "grams" },
+      { "name": "Red onion", "quantity": 1, "unit": "small" },
+      { "name": "Olive oil", "quantity": 2, "unit": "tablespoons" }
+    ],
+    "steps": [
+      "Rinse and drain chickpeas.",
+      "Chop cucumber, tomatoes, and onion.",
+      "Combine all ingredients in a bowl and drizzle with olive oil."
+    ],
+    "time": "15 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Mushroom Risotto",
+    "description": "Creamy risotto cooked with mushrooms and Parmesan cheese.",
+    "ingredients": [
+      { "name": "Arborio rice", "quantity": 300, "unit": "grams" },
+      { "name": "Mushrooms", "quantity": 200, "unit": "grams" },
+      { "name": "Vegetable broth", "quantity": 1, "unit": "litre" },
+      { "name": "Onion", "quantity": 1, "unit": "medium" },
+      { "name": "Parmesan cheese", "quantity": 100, "unit": "grams" }
+    ],
+    "steps": [
+      "Sauté chopped onion and mushrooms in a pan until soft.",
+      "Add Arborio rice and stir for 1-2 minutes.",
+      "Gradually add vegetable broth, stirring continuously until absorbed.",
+      "Stir in Parmesan cheese before serving."
+    ],
+    "time": "30 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Caprese Skewers",
+    "description": "Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.",
+    "ingredients": [
+      { "name": "Cherry tomatoes", "quantity": 200, "unit": "grams" },
+      { "name": "Fresh mozzarella balls", "quantity": 200, "unit": "grams" },
+      { "name": "Fresh basil", "quantity": 20, "unit": "leaves" },
+      { "name": "Balsamic glaze", "quantity": 2, "unit": "tablespoons" }
+    ],
+    "steps": [
+      "On skewers, alternate threading cherry tomatoes, mozzarella, and basil leaves.",
+      "Drizzle with balsamic glaze before serving."
+    ],
+    "time": "15 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Teriyaki Chicken",
+    "description": "Grilled chicken glazed with a sweet and savory teriyaki sauce.",
+    "ingredients": [
+      { "name": "Chicken breast", "quantity": 500, "unit": "grams" },
+      { "name": "Teriyaki sauce", "quantity": 100, "unit": "ml" },
+      { "name": "Sesame seeds", "quantity": 1, "unit": "tablespoon" },
+      { "name": "Green onions", "quantity": 2, "unit": "pieces" }
+    ],
+    "steps": [
+      "Marinate chicken in teriyaki sauce for 30 minutes.",
+      "Grill chicken until cooked through.",
+      "Sprinkle with sesame seeds and chopped green onions before serving."
+    ],
+    "time": "45 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Apple Crisp",
+    "description": "A warm dessert made with baked apples and a crumbly topping.",
+    "ingredients": [
+      { "name": "Apples", "quantity": 4, "unit": "large" },
+      { "name": "Brown sugar", "quantity": 100, "unit": "grams" },
+      { "name": "Oats", "quantity": 100, "unit": "grams" },
+      { "name": "Butter", "quantity": 75, "unit": "grams" },
+      { "name": "Cinnamon", "quantity": 1, "unit": "teaspoon" }
+    ],
+    "steps": [
+      "Preheat oven to 180°C (350°F).",
+      "Slice apples and layer them in a baking dish.",
+      "Mix oats, brown sugar, butter, and cinnamon until crumbly.",
+      "Spread topping over apples and bake for 30-35 minutes."
+    ],
+    "time": "1 hour",
+    "servings": 6
+  },
+  {
+    "title": "Sweet Potato Mash",
+    "description": "Creamy mashed sweet potatoes with butter and spices.",
+    "ingredients": [
+      { "name": "Sweet potatoes", "quantity": 600, "unit": "grams" },
+      { "name": "Butter", "quantity": 50, "unit": "grams" },
+      { "name": "Milk", "quantity": 100, "unit": "ml" },
+      { "name": "Cinnamon", "quantity": 1, "unit": "teaspoon" },
+      { "name": "Salt", "quantity": 1, "unit": "teaspoon" }
+    ],
+    "steps": [
+      "Boil sweet potatoes until soft, then drain.",
+      "Mash sweet potatoes with butter, milk, cinnamon, and salt until creamy."
+    ],
+    "time": "30 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Eggplant Parmesan",
+    "description": "Layers of breaded eggplant baked with marinara sauce and cheese.",
+    "ingredients": [
+      { "name": "Eggplant", "quantity": 1, "unit": "large" },
+      { "name": "Marinara sauce", "quantity": 500, "unit": "grams" },
+      { "name": "Mozzarella cheese", "quantity": 200, "unit": "grams" },
+      { "name": "Parmesan cheese", "quantity": 100, "unit": "grams" },
+      { "name": "Breadcrumbs", "quantity": 100, "unit": "grams" }
+    ],
+    "steps": [
+      "Preheat oven to 190°C (375°F).",
+      "Slice eggplant and coat with breadcrumbs.",
+      "Fry eggplant slices until golden brown.",
+      "Layer fried eggplant, marinara sauce, and cheeses in a baking dish.",
+      "Bake for 30 minutes until bubbly."
+    ],
+    "time": "1 hour",
+    "servings": 4
+  },
+  {
+    "title": "Mango Smoothie",
+    "description": "A refreshing smoothie made with ripe mango and yogurt.",
+    "ingredients": [
+      { "name": "Mango", "quantity": 2, "unit": "large" },
+      { "name": "Yogurt", "quantity": 250, "unit": "grams" },
+      { "name": "Milk", "quantity": 200, "unit": "ml" },
+      { "name": "Honey", "quantity": 2, "unit": "tablespoons" },
+      { "name": "Ice", "quantity": 1, "unit": "cup" }
+    ],
+    "steps": [
+      "Peel and chop mangoes.",
+      "Blend mangoes with yogurt, milk, honey, and ice until smooth."
+    ],
+    "time": "10 minutes",
+    "servings": 2
+  },
+  {
+    "title": "Beet Salad",
+    "description": "A vibrant salad made with roasted beets, goat cheese, and walnuts.",
+    "ingredients": [
+      { "name": "Beets", "quantity": 500, "unit": "grams" },
+      { "name": "Goat cheese", "quantity": 100, "unit": "grams" },
+      { "name": "Walnuts", "quantity": 50, "unit": "grams" },
+      { "name": "Arugula", "quantity": 100, "unit": "grams" },
+      { "name": "Balsamic vinaigrette", "quantity": 2, "unit": "tablespoons" }
+    ],
+    "steps": [
+      "Roast beets until tender, then slice.",
+      "Toss arugula with beets, walnuts, and crumbled goat cheese.",
+      "Drizzle with balsamic vinaigrette before serving."
+    ],
+    "time": "1 hour",
+    "servings": 4
+  },
+  {
+    "title": "Pasta Primavera",
+    "description": "Pasta tossed with fresh vegetables and a light garlic sauce.",
+    "ingredients": [
+      { "name": "Pasta", "quantity": 300, "unit": "grams" },
+      { "name": "Zucchini", "quantity": 1, "unit": "large" },
+      { "name": "Bell peppers", "quantity": 2, "unit": "pieces" },
+      { "name": "Garlic", "quantity": 2, "unit": "cloves" },
+      { "name": "Olive oil", "quantity": 2, "unit": "tablespoons" }
+    ],
+    "steps": [
+      "Cook pasta according to package instructions.",
+      "Sauté chopped garlic and vegetables in olive oil until tender.",
+      "Combine pasta with vegetables before serving."
+    ],
+    "time": "25 minutes",
+    "servings": 4
+  },
+  {
+    "title": "Fish Tacos",
+    "description": "Crispy fish tacos topped with fresh cabbage and avocado.",
+    "ingredients": [
+      { "name": "White fish fillets", "quantity": 300, "unit": "grams" },
+      { "name": "Corn tortillas", "quantity": 4, "unit": "pieces" },
+      { "name": "Cabbage", "quantity": 100, "unit": "grams" },
+      { "name": "Avocado", "quantity": 1, "unit": "large" },
+      { "name": "Lime", "quantity": 1, "unit": "large" }
+    ],
+    "steps": [
+      "Fry fish fillets until crispy.",
+      "Warm corn tortillas and fill with fish, shredded cabbage, and sliced avocado.",
+      "Squeeze lime juice over the tacos before serving."
+    ],
+    "time": "30 minutes",
+    "servings": 2
+  },
+  {
+    "title": "Brownies",
+    "description": "Rich and fudgy chocolate brownies topped with walnuts.",
+    "ingredients": [
+      { "name": "Butter", "quantity": 125, "unit": "grams" },
+      { "name": "Sugar", "quantity": 200, "unit": "grams" },
+      { "name": "Cocoa powder", "quantity": 75, "unit": "grams" },
+      { "name": "Eggs", "quantity": 2, "unit": "large" },
+      { "name": "Walnuts", "quantity": 100, "unit": "grams" }
+    ],
+    "steps": [
+      "Preheat oven to 180°C (350°F).",
+      "Melt butter and mix with sugar and cocoa powder.",
+      "Stir in eggs until well combined.",
+      "Fold in chopped walnuts and pour into a baking dish.",
+      "Bake for 20-25 minutes."
+    ],
+    "time": "40 minutes",
+    "servings": 12
+  },
+  {
+    "title": "Pancakes",
+    "description": "Fluffy pancakes served with syrup and fresh fruit.",
+    "ingredients": [
+      { "name": "Flour", "quantity": 200, "unit": "grams" },
+      { "name": "Milk", "quantity": 300, "unit": "ml" },
+      { "name": "Egg", "quantity": 1, "unit": "large" },
+      { "name": "Baking powder", "quantity": 1, "unit": "tablespoon" },
+      { "name": "Butter", "quantity": 50, "unit": "grams" }
+    ],
+    "steps": [
+      "In a bowl, mix flour, baking powder, and a pinch of salt.",
+      "In another bowl, whisk milk, egg, and melted butter.",
+      "Combine wet and dry ingredients until just mixed.",
+      "Pour batter onto a hot griddle and cook until bubbles form, then flip."
+    ],
+    "time": "20 minutes",
+    "servings": 4
   }
 ]
