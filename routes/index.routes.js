@@ -3,10 +3,9 @@ const Recipe = require("../models/Recipe.model");
 
 const router = require("express").Router();
 
-
 router.get("/recipes", async (req, res, next) => {
   try {
-    const allRecipes await Recipe.find().populate("userId", {
+    const allRecipes = await Recipe.find().populate("userId", {
       passwordHash: 0,
     });
     res.status(200).json(allRecipes);
@@ -64,7 +63,6 @@ router.delete("/recipes/:recipeId", isAuthenticated, async (req, res, next) => {
   }
 });
 
-
 router.put("/recipes/:recipeId", isAuthenticated, async (req, res, next) => {
   const { recipeId } = req.params;
   try {
@@ -88,6 +86,5 @@ router.put("/recipes/:recipeId", isAuthenticated, async (req, res, next) => {
     next(error);
   }
 });
-
 
 module.exports = router;
