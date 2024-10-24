@@ -1,11 +1,16 @@
 const { isAuthenticated } = require("../middlewares/route-guard.middleware");
 const Recipe = require("../models/Recipe.model");
-
+const cloudinary = require("cloudinary").v2;
+cloudinary.config({
+  cloud_name: process.env.CLOUD_NAME,
+  api_key: process.env.CLOUD_API_KEY,
+  api_secret: process.env.CLOUD_API_SECRET,
+});
 const router = require("express").Router();
 
 const multer = require("multer");
-const { storage } = require("../config/cloudinary.config");
-const upload = multer({ storage: storage });
+
+const upload = multer();
 
 router.get("/recipes", async (req, res, next) => {
   try {
@@ -58,22 +63,34 @@ router.post(
   isAuthenticated,
   upload.single("imageUrl"),
   async (req, res, next) => {
-    const ingredients = [];
-    for (const [key, value] of Object.entries(req.body.ingredients)) {
-      ingredients.push(JSON.parse(value));
-    }
-    const recipeToCreate = { ...req.body, ingredients };
-    console.log(recipeToCreate.ingredients);
-    try {
-      const newRecipe = await Recipe.create({
-        ...recipeToCreate,
-        userId: req.tokenPayload.userId,
-        imageUrl: req.file.path,
-      });
-      res.status(201).json(newRecipe);
-    } catch (error) {
-      next(error);
-    }
+    const upload_stream = cloudinary.uploader.upload_stream(
+      { public_id: "...id", resource_type: "auto", folder: "Recipes" },
+      async (error, results) => {
+        if (error) {
+          console.error(error);
+          return res.status(500).json("error uploading image");
+        } else {
+          console.log("uploaded image", results);
+          const ingredients = [];
+          for (const [key, value] of Object.entries(req.body.ingredients)) {
+            ingredients.push(JSON.parse(value));
+          }
+          const recipeToCreate = { ...req.body, ingredients };
+          console.log(recipeToCreate.ingredients);
+          try {
+            const newRecipe = await Recipe.create({
+              ...recipeToCreate,
+              userId: req.tokenPayload.userId,
+              imageUrl: results.url,
+            });
+            return res.status(201).json(newRecipe);
+          } catch (error) {
+            next(error);
+          }
+        }
+      }
+    );
+    upload_stream.end(req.file.buffer);
   }
 );
 
