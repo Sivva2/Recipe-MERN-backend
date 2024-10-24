@@ -3,10 +3,6 @@ const Recipe = require("../models/Recipe.model");
 
 const router = require("express").Router();
 
-router.get("/", (req, res) => {
-  res.json("All good in here");
-});
-
 router.get("/recipes", async (req, res, next) => {
   try {
     const allRecipes = await Recipe.find().populate("userId", {
