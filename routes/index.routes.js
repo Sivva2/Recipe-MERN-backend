@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 const { isAuthenticated } = require("../middlewares/route-guard.middleware");
 const Recipe = require("../models/Recipe.model");
 
@@ -68,16 +67,6 @@ router.delete("/recipes/:recipeId", isAuthenticated, async (req, res, next) => {
   }
 });
 
-<<<<<<< HEAD
-=======
-const router = require("express").Router();
-
-router.get("/", (req, res) => {
-  res.json("All good in here");
-});
-
->>>>>>> Stashed changes
-=======
 router.put("/recipes/:recipeId", isAuthenticated, async (req, res, next) => {
   const { recipeId } = req.params;
   try {
@@ -102,5 +91,4 @@ router.put("/recipes/:recipeId", isAuthenticated, async (req, res, next) => {
   }
 });
 
->>>>>>> 22f11db4deb73d8015b6ae5bd36fa9e74e0c768d
 module.exports = router;
