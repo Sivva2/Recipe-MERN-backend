@@ -12,6 +12,10 @@ const app = express();
 require("./config")(app);
 
 // 👇 Start handling routes here
+
+const moviesRouter = require("./routes/movies.routes"); // <== has to be added
+app.use("/api", moviesRouter); // <== has to be added
+
 const indexRoutes = require("./routes/index.routes");
 app.use("/api", indexRoutes);
 
