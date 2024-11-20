@@ -94,4 +94,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 This project is licensed under the MIT License.
 
 # Contact
-For any questions or support, please contact your-email@example.com. sivva2@sivva2.dev XD 
+For any questions or support, please contact sivva2@sivva2.dev XD 
