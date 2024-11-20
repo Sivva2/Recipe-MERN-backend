@@ -49,20 +49,7 @@ cd Recipe-MERN-backend/
  
 npm install
 
-Set up environment variables: Create a .env file in the root directory and add the following:
-
-# env
-
-TOKEN_SECRET=1r0Nh4cK
-PORT=5005 
-ORIGIN=http://localhost:5173 
-
-
-CLOUD_NAME=dqwvmpek3
-
-CLOUD_API_KEY=847826633477224
-
-CLOUD_API_SECRET=banx-LJvjmGRLGN-c2l1dgCd-wg
+Set up environment variables: Create a .env file in the root directory 
 
 
 # Run the application:
